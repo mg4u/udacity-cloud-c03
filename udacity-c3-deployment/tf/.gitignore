@@ -1,0 +1,4 @@
+tf.json
+tf copy.json
+.terraform/
+.terraform/*
