@@ -6,12 +6,12 @@ services:
     image: mbromberek/reverseproxy 
   backend_user:
     build:
-      context: ../../udacity-c3-restapi
-    image: mbromberek/udacity-c3-restapi-user
+      context: ../../udacity-c3-user-service
+    image: mbromberek/udacity-c3-user-service
   backend_feed:
     build:
       context: ../../udacity-c3-feed-service
-    image: mbromberek/udacity-c3-restapi-feed
+    image: mbromberek/udacity-c3-feed-service
   frontend:
     build:
       context: ../../udacity-c3-frontend

@@ -13,7 +13,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: mbromberek/udacity-c3-frontend:local
+      - image: mbromberek/udacity-frontend:local
         name: frontend
         imagePullPolicy: Always          
         ports:

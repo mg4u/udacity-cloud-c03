@@ -12,7 +12,7 @@ spec:
         service: backend-user
     spec:
       containers:
-      - image: mbromberek/udacity-c3-restapi-user
+      - image: mbromberek/udacity-c3-user-service
         name: backend-user 
         imagePullPolicy: Always  
         resources:
