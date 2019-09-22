@@ -18,6 +18,6 @@ before_install:
 
 
 install:
-  - echo 'hello udacity'
-#  - docker-compose -f udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel 
+#  - echo 'hello udacity'
+ - docker-compose -f udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel 
 
