@@ -12,7 +12,7 @@ spec:
         service: backend-feed
     spec:
       containers:
-      - image: mbromberek/udacity-c3-restapi-feed
+      - image: mbromberek/udacity-c3-feed-service
         name: backend-feed
         imagePullPolicy: Always  
         resources:

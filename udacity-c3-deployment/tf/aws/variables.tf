@@ -71,7 +71,7 @@ variable "control_plane_type" {
 }
 
 variable "control_plane_volume_size" {
-  default     = 100
+  default     = 10
   description = "Size of the EBS volume, in Gb"
 }
 
