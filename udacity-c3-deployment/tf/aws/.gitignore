@@ -1,0 +1,6 @@
+tf.json
+tf copy.json
+.terraform/
+.terraform/*
+demo2-kubeconfig
+demo2.tar.gz
