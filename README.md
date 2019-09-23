@@ -53,3 +53,6 @@ You will need to install the kubectl command. Open a new terminal within the pro
 5. `kubectl get secrets`
 6. `kubectl describe secret/env-secret`
 
+### Continuous Integration / Continuous Development:
+- Travis CI is setup to monitor for updates to any branches and will automatically build and deploy the Docker containers.
+- For this to work the DOCKER_PASSWORD and DOCKER_USERNAME environment variables had to be set in Travis CI. <a href='https://docs.travis-ci.com/user/docker/'> Has instructions for this</a>
