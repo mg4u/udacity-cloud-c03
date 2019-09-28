@@ -41,7 +41,7 @@ You will need to install the kubectl command. Open a new terminal within the pro
 	- `kubectl apply -f reverseproxy-deployment.yaml`
 	- `kubectl apply -f reverseproxy-service.yaml`
 7. Perform port forwarding (each needs to be run in a separate terminal window and left running)
-	- `$ kubectl port-forward service/frontend 8100:8100`
+	- `kubectl port-forward service/frontend 8100:8100`
 	- `kubectl port-forward service/reverseproxy 8080:8080`
 
 
@@ -55,4 +55,4 @@ You will need to install the kubectl command. Open a new terminal within the pro
 
 ### Continuous Integration / Continuous Development:
 - Travis CI is setup to monitor for updates to any branches and will automatically build and deploy the Docker containers.
-- For this to work the DOCKER_PASSWORD and DOCKER_USERNAME environment variables had to be set in Travis CI. <a href='https://docs.travis-ci.com/user/docker/'> Has instructions for this</a>
+- For this to work the DOCKER_PASSWORD and DOCKER_USERNAME environment variables had to be set in Travis CI. <a href='https://docs.travis-ci.com/user/docker/'> Instructions for setting this up</a>
