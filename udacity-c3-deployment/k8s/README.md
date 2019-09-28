@@ -22,7 +22,7 @@ You will need to install the kubectl command. Open a new terminal within the pro
 	- `kubectl apply -f reverseproxy-deployment.yaml`
 	- `kubectl apply -f reverseproxy-service.yaml`
 7. Perform port forwarding (each needs to be run in a separate terminal window and left running)
-	- `$ kubectl port-forward service/frontend 8100:8100`
+	- `kubectl port-forward service/frontend 8100:8100`
 	- `kubectl port-forward service/reverseproxy 8080:8080`
 
 
